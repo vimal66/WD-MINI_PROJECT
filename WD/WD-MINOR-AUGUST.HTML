@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>HISTOICAL PLACES IN INDIA</title>
+    <style>
+        .header{
+            text-align: center;
+            width:90%;
+            font-size: 40px;
+            background-color: black;
+            margin-top: 0px;
+            position: fixed;
+            margin: 0;
+            top: 0;
+            margin-left: 10px;
+            z-index: 1;
+        }
+        .header:hover{
+            background-color: aqua;
+            text-shadow: 5px 5px 10px darkblue;
+        }
+        .footer{
+            
+            text-align: center;
+            width:90%;
+            font-size: 40px;
+            background-color: black;
+            text-shadow: 5px 5px 10px blue;
+            position: fixed;
+            margin-left: 180px;
+            margin: 0px;
+            bottom: 0px;
+        }
+        .footer:hover{
+            background-color: aqua;
+            text-shadow: 5px 5px 10px darkblue;
+        }
+        .song{
+            margin-bottom: 100px;
+        }
+        
+        *{
+            margin: 0px;
+            padding: 5px;
+            box-sizing: border-box;
+            font-family: papyrus;
+            
+        }
+        body{
+            min-height: 100%;
+            background-color: grey;
+            color: #8D38B7;
+        }
+        .container{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            margin-left: 150px;
+        }
+        .container .card{
+            position: relative;
+            width: 320px;
+            height: 500px;
+            margin: 15px;
+            overflow: hidden;
+        }
+        .container .card .imgBx,
+        .container .card .contentBx
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .container .card .imgBx img{
+            position: absolute;
+            top: 100;
+
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .container .card .contentBx::before{
+            content: '';
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            transition: 0.5%;
+            transform: scaleX(0);
+            transition: transform 0.5s ease-in-out;
+            transform-origin: left;
+        }
+        .container .card:hover .contentBx::before{
+            transform: scaleX(1);
+            transition: transform 0.5s ease-in-out;
+            transform-origin: top;
+        }
+        .container .card:hover .contentBx{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container .card .contentBx .content{
+            position: relative;
+            padding: 30px;
+            z-index: 1;
+            transition: 0.5s;
+            transform: translateX(400px);
+        }
+        .container .card:hover .contentBx .content{
+            transform: translateX(0px);
+        }
+        .container .card:hover .contentBx .content h2{
+            font-size: 30px;
+
+        }
+        .container .card .contentBx .content p{
+            font-size: 20px;
+        }
+        .b1{
+            padding-bottom: 0px;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <div class="container" >
+        <div class="header">historical-places-in-india</div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://cdn.pixabay.com/photo/2017/05/30/21/37/brihadishvara-2358280_1280.jpg"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>BRIHADEESHWARAR TEMPLE</h2>
+                <p>Brihadishvara Temple (originally known as Peruvudaiyar Kovil) locally known as Thanjai Periya Kovil, and also called Rajarajeswaram, is a Hindu Dravidian styled temple dedicated to the god Shiva located in South bank of Cauvery river in Thanjavur, Tamil Nadu, India</p>
+            </div>
+        </div>
+        brihadeeshwarar
+        </div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://thumbs.dreamstime.com/b/taj-mahal-agra-india-morning-light-reflection-water-uttar-pradesh-108954918.jpg"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>TAJ MAHAL</h2>
+                <p>An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife, the Taj Mahal is the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage</p>
+            </div>
+        </div>
+        </div>
+            <div class="card">
+            <div class="imgbx">
+            <img src="https://i.pinimg.com/originals/bf/b9/31/bfb9311e32936a82bb293b211cf00d53.jpg"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>INDIA GATE</h2>
+                <p>India Gate, official name Delhi Memorial, originally called All-India War Memorial, monumental sandstone arch in New Delhi, dedicated to the troops of British India who died in wars fought between 1914 and 1919.</p>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://cdn.britannica.com/20/189820-050-D650A54D/Red-Fort-Old-Delhi-India.jpg"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>RED FORT</h2>
+                <p>The Red Fort Complex was built as the palace fort of Shahjahanabad  the new capital of the fifth Mughal Emperor of India, Shah Jahan. Named for its massive enclosing walls of red sandstone, it is adjacent to an older fort, the Salimgarh, built by Islam Shah Suri in 1546, with which it forms the Red Fort Complex</p>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://img.peapix.com/cc7cb0188db44f9ab972bf2e5deb83c3.jpg?attachment&modal"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>HAWA MAHAL</h2>
+                <p>The five-storey building looks like a honeycomb of a beehive and it is always windy inside, owing to the numerous windows and jharokhas“Palace of the Winds”</p>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://www.learnreligions.com/thmb/qFyxQkh4cJTZrYV6QYytO1U8mh8=/853x853/smart/filters:no_upscale()/155748394-56a86c4e5f9b58b7d0f290fb.jpg"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>GOLDEN TEMPLE</h2>
+                <p>The Golden temple is located in the holy city of the Sikhs, Amritsar. The Golden temple is famous for its full golden dome, it is one of the most sacred pilgrim spots for Sikhs</p>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ecj3x116t1bcblhgop44/Mahabalipuram%20Private%20Day%20Tour%20from%20Chennai,%20India.jpg"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>MAHABALIPURAM TEMPLE</h2>
+                <p>Mahabalipuram or Mamallapuram is a historic city and UNESCO World Heritage site in Tamil Nadu, India. During the reign of the Pallava dynasty, between the 3rd century CE and 7th century CE, it became an important centre of art, architecture and literature</p>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://blog.railyatri.in/wp-content/uploads/2017/01/Sanchi-Stupa.png"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>SANCHI-stupa</h2>
+                <p>The Great Stupa at Sanchi is one of the oldest stone structures in India, and an important monument of Indian Architecture. It was originally commissioned by the Mauryan emperor Ashoka the Great in the 3rd century BCE</p>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+            <img src="https://preview.redd.it/v9omcp0ilby11.jpg?auto=webp&s=48ee719608c93d1e48f92700f4aa13c9fdc961d1"  width="340px" height="500px">
+            </div>
+        <div class="contentBx">
+            <div class="content">
+                <h2>MEENAKSHI TEMPLE</h2>
+                <p>It is dedicated to the goddess Meenakshi, a form of Parvati, and her consort, Sundareshwarar, a form of Shiva. The temple is at the center of the ancient temple city of Madurai mentioned in the Tamil Sangam literature</p>
+            </div>
+        </div>
+        </div>
+        <br>
+    
+    
+    <div class="b1"> NATIONAL ANTHEM
+   
+
+    <div class="song">
+
+        <audio controls>
+            <source src="Jana_Gana_Mana_instrumental.ogg" type="audio/ogg">
+    
+            <source src="http://web.archive.org/web/20041019023748/http://www.navyband.navy.mil/anthems/ANTHEMS/India.mp3" type="audio/mpeg">
+
+        </audio>
+    </div>  
+    </div>
+    <div class="footer">Design and developed by VIMALRAJ.D</div>
+
+
+</div>
+     
+</body>
+</html>
